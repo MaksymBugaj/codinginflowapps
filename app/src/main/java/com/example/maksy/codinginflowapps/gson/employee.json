@@ -1,0 +1,19 @@
+{
+  "address": {
+    "city": "Berlin",
+    "country": "Germany"
+  },
+  "age": 30,
+  "email": "johm@pusyy.com",
+  "family": [
+    {
+      "age": 30,
+      "role": "wife"
+    },
+    {
+      "age": 25,
+      "role": "mistress"
+    }
+  ],
+  "first_name": "John"
+}

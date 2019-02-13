@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_view_pager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Pager"/>
+
+    <Button
+        android:id="@+id/button_rate_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rate Me"/>
+
+    <Button
+        android:id="@+id/button_permissions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="permissions"/>
+
+    <Button
+        android:id="@+id/button_phone_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Call"/>
+
+    <Button
+        android:id="@+id/button_gson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gson"/>
+
+    <Button
+        android:id="@+id/button_json"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JSON"/>
+
+    <Button
+    android:id="@+id/button_mvvm"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="MVVM"/>
+
+    <Button
+        android:id="@+id/button_dagger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dagger"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+package com.example.maksy.codinginflowapps.dagger2.car;
+
+import android.util.Log;
+
+import javax.inject.Inject;
+
+import static com.example.maksy.codinginflowapps.dagger2.car.Car.TAG;
+
+public class DieselEngine implements Engine {
+
+    @Inject
+    public DieselEngine() {
+    }
+
+    @Override
+    public void start() {
+        Log.d(TAG, "start: Diesel");
+    }
+}

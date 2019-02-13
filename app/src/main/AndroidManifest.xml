@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.maksy.codinginflowapps">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".rateme.RateMeActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".pagerview.PagerView"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Permissions"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".phone.PhoneCall"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".gson.GsonExample" />
+        <activity
+            android:name=".recyclerjson.JsonTest"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".recyclerjson.DetailActivity" />
+        <activity android:name=".mvpexample.MVPMain" />
+        <activity android:name=".mvvmNote.MVVMActivity" />
+        <activity android:name=".mvvmNote.AddEditNoteActivity" />
+        <activity android:name=".dagger2.MainDagger"></activity>
+    </application>
+
+</manifest>
